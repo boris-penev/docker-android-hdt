@@ -71,8 +71,8 @@ RUN echo "installing sdk tools" && \
     echo "installing android packages" && \
     yes | "$ANDROID_HOME"/tools/bin/sdkmanager \
         "platform-tools" \
-        "platforms;android-24" \
-        "build-tools;24.0.2" \
+        "platforms;android-26" \
+        "build-tools;26.0.3" \
         "extras;android;m2repository" \
         "extras;google;m2repository" \
 
